@@ -1,0 +1,91 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("flower2.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+footer {
+  color: rgb(152, 152, 250);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(252, 250, 246);
+}
+div {
+    background-color: rgb(175, 171, 224);
+    font-size: 12px;
+    margin: 4px;
+    padding: 4px;
+    float: right;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+img {
+  width: 50%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(252, 250, 246);
+}
+/* The sidepanel menu */
+.sidepanel {
+    text-align-last: left;
+    position: relative;
+    height: 250px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    background-color: rgb(167, 183, 252); /* Black*/
+    overflow-x: scroll; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 1s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #d6e9ff;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(165, 168, 214);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(201, 205, 206);
