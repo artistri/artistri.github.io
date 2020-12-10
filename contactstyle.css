@@ -1,0 +1,86 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("flower2.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+header {
+    background-image: url(artistri.png);
+    background-size: 20px;
+    background-position: left;
+}
+div { 
+  background-color:rgb(181, 177, 241);
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 1px; 
+  padding: 20px;
+  margin: 40px; 
+}
+a {
+  color: aliceblue;
+}
+a:hover {
+  color: rgb(223, 183, 155);
+}
+footer {
+  color: rgb(152, 152, 250);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+/* The sidepanel menu */
+.sidepanel {
+  text-align-last: left;
+  position: relative;
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  background-color: rgb(167, 183, 252); /* Black*/
+  overflow-x: scroll; /* Disable horizontal scroll */
+  padding-top: 40px; /* Place content 60px from the top */
+  transition: 1s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #d6e9ff;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(165, 168, 214);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(150, 197, 206);
+}
